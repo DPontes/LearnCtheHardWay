@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[]) {
     if(argc != 2) {
-        printf("ERROR! You need one argument.\n");
+        printf("ERROR! You must input exactly one argument.\n");
         // this is how you abort a program
         return 1;
     }

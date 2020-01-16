@@ -12,27 +12,27 @@ int main(int argc, char *argv[]) {
         char letter = argv[1][i];
 
         switch (letter) {
-            case 'a':
+            case 'a': // fallthrough
             case 'A':
                 printf("%d: 'A'\n", i);
                 break;
-            case 'e':
+            case 'e': // fallthrough
             case 'E':
                 printf("%d: 'E'\n", i);
                 break;
-            case 'i':
+            case 'i': // fallthrough
             case 'I':
                 printf("%d: 'I'\n", i);
                 break;
-            case 'o':
+            case 'o': // fallthrough
             case 'O':
                 printf("%d: 'O'\n", i);
                 break;
-            case 'u':
+            case 'u': // fallthrough
             case 'U':
                 printf("%d: 'U'\n", i);
                 break;
-            case 'y':
+            case 'y': // fallthrough
             case 'Y':
                 // why i > 2? is this a bug?
                 if(i > 2) {

@@ -1,13 +1,6 @@
 #include <stdio.h>
 
-// Extra credit, make a math based function that capitalizes the input
-// so that the extra 'case' in the switch are removed
-char capitalize(char letter) {
-    if (letter >= 'a' && letter <= 'z') {
-        letter -= 32;
-    }
-    return letter;
-}
+char capitalize(char letter);
 
 int main(int argc, char *argv[]) {
 
@@ -50,4 +43,13 @@ int main(int argc, char *argv[]) {
         }
     }
     return 0;
+}
+
+// Extra credit, make a math based function that capitalizes the input
+// so that the extra 'case' in the switch are removed
+char capitalize(char letter) {
+    if (letter >= 'a' && letter <= 'z') {
+        letter -= 32;
+    }
+    return letter;
 }

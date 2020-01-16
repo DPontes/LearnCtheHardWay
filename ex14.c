@@ -23,9 +23,6 @@ void print_letters(char arg[]) {
     printf("\n");
 }
 
-//int can_print_it(char ch) {
-//    return isalpha((int)ch) || isblank((int)ch);
-//}
 
 int main(int argc, char *argv[]) {
         print_arguments(argc, argv);

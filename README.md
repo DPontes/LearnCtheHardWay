@@ -42,3 +42,5 @@ This exercise requires that the accompanying video is watched
 ### Aditional pointers Lexicon:
 
 - `ptr->elem`: Use pointer to struct/union to get `elem`
+
+Use an `->` when you have a pointer to a struct

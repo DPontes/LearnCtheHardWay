@@ -37,3 +37,8 @@ This exercise requires that the accompanying video is watched
 - `type *ptr = &thing`: A pointer of `type` named `ptr` set to the address of `thing`
 - `ptr++`: increment to where `ptr` points
 
+## Ex16: Structs and pointers to them
+
+### Aditional pointers Lexicon:
+
+- `ptr->elem`: Use pointer to struct/union to get `elem`
